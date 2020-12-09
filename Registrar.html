@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mental Analytica</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estiloIndex.css">
+    <link rel="stylesheet" href="css/estilosJos.css">
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/validarRegistro.js"></script>
+    <script src="js/animacion.js"></script>
+</head>
+<body>
+<div class="fondo">
+
+   <nav class="navbar navbar-expand-md navbar-light bg-info fixed-top shadow">
+        <div class="container"> 
+            <a class="nav-link" href="#"><img src="img/Logo2.png" id="logo"></a>
+            <span class="navbar-brand text-light mx-auto font-weight-bold text-center">Mental Analytica</span>
+            <a class="nav-link text-light" href="IniciarSesion.html">Iniciar Sesion</a></li>
+        </div>
+   </nav> 
+   
+    <div class="container ml-8 " id="texto">
+        <div class="row">
+            <div class="col-lg-3 col-md-3"></div>
+            
+            <div class="col-lg-6 col-md-6 background-Black mt-5">
+                <h1 class="text-center mt-5 fontwhite">¡Registrate!</h1>
+            <p class="text-justify mt-2 overflow-auto">
+                <form action="get">   
+                <center>
+                  
+                  
+
+                    <select class="form-control form-control-lg">
+                      <option>Paciente</option>
+                      <option>Psicologo</option>
+
+                    </select>
+
+                    <p><input type="text" class="form-control mt-3" required minlength="2" maxlength="36" name="usuario" id="usuario" placeholder="Nombre de usuario"></p>
+                    <p><input type="text" class="form-control"required minlength="2" maxlength="50"name="Correo" id="Correo" placeholder="Correo electronico"></p>
+                    <p><input type="password" class="form-control" required name="password" id="password" placeholder="Tu contraseña"></p>
+                    <p><input type="password" class="form-control" required name="confirmar" id="confirmar" placeholder="Confirma contraseña"></p>
+                    <p><div class="text-center font-italic"><input type="button" class="btn btn-primary"  value="Registar" > &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <a href="registar.html">¿Ya tienes cuenta?</div></a></p>
+                </center>
+                
+
+                </form>
+            </p>
+        </div>
+            <div class="col-ls-3 col-md-3"></div>
+        </div>
+    </div>
+      
+</div>
+
+
+   <!-- Footer -->
+<footer class="page-footer font-small bg-dark pt-2 mt-auto" id="pie">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left text-light">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-2">
+  
+          <!-- Content -->
+          <h5 class="text-uppercase">Contactanos</h5>
+         
+            Morning Star <br><cite>-Soluciones del mañana</cite>
+  
+        </div>
+        
+        <!-- Grid column -->
+        <div class="col-md-5 mb-md-0 mb-3  ml-5 w-300">
+  
+          <!-- Links -->
+          <div class="container ml-5 mt-3">
+          <a href="#!" class="align-self-middle ml-3"><img src="img/GmailLogo.png" class="Logo"></a>
+          <a href="#!" class="align-middle ml-3"><img src="img/FBLogo.png" class="Logo"></a>
+          <a href="#!" class="align-middle ml-3"><img src="img/TwitterLogo.jpg" class="Logo"></a>
+        </div>
+          
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-1 bg-info text-light">© Morning Star
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+</body>
+</html>

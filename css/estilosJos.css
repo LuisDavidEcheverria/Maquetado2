@@ -1,0 +1,45 @@
+.background-Black{
+    background: rgb(60, 60, 60,0.9);
+    border-radius: 7%;
+
+}.background-White{
+    background: rgba(255, 255, 255);
+    width: 400px;
+
+}
+.background-BlackBlock{
+    background: rgb(60, 60, 60,0.8);
+    border:8px solid rgb(255, 255, 255);
+    border-radius: 7%;
+}
+.background-BlackTransition{
+    background: rgb(60, 60, 60,0.8);
+    border-radius: 7%;
+    border:8px solid rgb(255, 255, 255,0.00001);
+    height: 300px;
+    transition: all .2s ease-in-out;
+}
+.background-BlackTransition:hover{
+    background: rgb(60, 60, 60,0.8);
+    border-radius: 7%;
+    border:4px solid rgb(101, 224, 101);
+    height: 300px;
+    transform: scale(1.01);
+}
+.fontwhite{
+    color: rgb(250, 250, 250);
+}
+.nombrePaciente{
+    white-space: pre-wrap;      /* CSS3 */   
+    white-space: -moz-pre-wrap; /* Firefox */    
+    white-space: -pre-wrap;     /* Opera <7 */   
+    white-space: -o-pre-wrap;   /* Opera 7 */    
+
+}
+
+
+
+  .imgGrande{
+    width: 150px;
+    height: 150px;
+  }

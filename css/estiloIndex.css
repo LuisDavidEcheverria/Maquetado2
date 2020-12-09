@@ -1,0 +1,55 @@
+body,html{
+    height: 100%;
+}
+.bodyHome
+{
+
+        /* The image used */
+        background-image: url("https://cdn.discordapp.com/attachments/771514575651733575/786033158796738581/2.jpg");
+      
+        /* Full height */
+        height: 100%;
+        width: 100%;
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+}
+body{
+            background-image: url("https://cdn.discordapp.com/attachments/771514575651733575/786033365571600394/2.jpg");
+
+            height: 100%;
+            width: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+}
+#logo
+{
+    width: 50px;
+    height: 50px;
+    filter:invert();
+}
+#pie
+{
+    width:100%;
+    position: relative;
+    bottom: -20%;
+    
+}
+#texto
+{
+    margin-top:9%;
+}
+.Logo
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.Logo:hover
+{
+    border-radius: 100%;
+}
