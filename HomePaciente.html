@@ -24,25 +24,33 @@
    </nav> 
    
     <div class="container ml-8 " id="texto">
-        <input type="button" class="btn btn-primary"  value="Mi psicologo" >
+        <input type="button" class="btn btn-primary"  value="Mi psicologo" id="psicologo" >
         <div class="row mt-5">
+        
+<script type="text/javascript">
+  document.getElementById("psicologo").onclick = function () {
+      location.href = "vistaPerfil.html";
+  };
+</script>
 
-
-
+          
             <div class="col-lg-4 col-md-4 background-BlackTransition mb-3">
-                <a href="Perfil.html" class="align-self-middle ml-3"><img src="img/perfilVacio.png" class="imgGrande mt-4"></a>
+              <a href="PerfilPaciente.html" class="align-self-middle ml-3">
+                <center><img src="img/perfilVacio.png" class="imgGrande mt-4 align-self-middle"></center></a>
                 <h1 class="text-center mt-3 fontwhite">Perfil</h1>
+              
             </div>
-            
+          
             <div class="col-lg-4 col-md-4 background-BlackTransition mb-3">
-                <a href="VistaCuestionarios.html" class="align-self-middle ml-3"><img src="img/cuestionario.png" class="imgGrande"></a>
+              <center><a href="VistaCuestionarios.html" class="align-self-middle ml-3"><img src="img/cuestionario.png" class="imgGrande"></a></center>
                 <h1 class="text-center mt-2 fontwhite">Realizar cuestionario</h1>
             </div>
 
             <div class="col-ls-4 col-md-4 background-BlackTransition mb-3">
-                <a href="Estadisticas.html" class="align-self-middle ml-3"><img src="img/stadistics.png" class="imgGrande mt-4"></a>
+              <center><a href="Estadisticas.html" class="align-self-middle ml-3"><img src="img/stadistics.png" class="imgGrande mt-4"></a></center>
                 <h1 class="text-center mt-3 fontwhite">Estadisticas</h1>
             </div>
+          
 
 
         </div>

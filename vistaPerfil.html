@@ -11,6 +11,7 @@
     <script src="https://code.jquery.com/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/validarRegistro.js"></script>
+    <script src="js/animacion.js"></script>
 </head>
 <body>
 <div class="fondo">
@@ -18,37 +19,53 @@
    <nav class="navbar navbar-expand-md navbar-light bg-info fixed-top shadow">
         <div class="container"> 
             <a class="nav-link" href="#"><img src="img/Logo2.png" id="logo"></a>
-            <span class="navbar-brand text-light mx-auto font-weight-bold">Mental Analytica</span>
-            <a class="nav-link text-light" href="Paciente.html"><img src="img/perfilVacio.png" class="Logo"> <div class="nombrePaciente mt-2 custom-control-inline">Paciente</div>    </a></li>
+            <span class="navbar-brand text-light mx-auto font-weight-bold text-center">Mental Analytica</span>
+            <a class="nav-link text-light" href="IniciarSesion.html">Iniciar Sesion</a></li>
         </div>
    </nav> 
-
+   
     <div class="container ml-8 " id="texto">
-        
-       <p> <h3 class="text-center mt-5">Estos son tus Estadisticas<div class="nombrePaciente custom-control-inline"> Paciente</div></h3></p>
-
-
-
-       <!--aqui se repite segun los formularios que se tengan-->
-        <div class="row mt-5 background-BlackBlock">
-            <div class="col-lg-12 col-md-12 ">
-                <center>
-                    <h1 class="nombreCuestionario fontWhite">Nombre de Estadistica</h1>
-                </center>
-            </div>
-        </div>
         <div class="row">
-            <div class="col-lg-4 col-md-4 ">
+            <div class="col-lg-4 col-md-4 mt-5 background-Black2 mb-3">
+               
+                  <center><img src="img/perfilVacio.png" class="imgGrande mt-4 align-self-middle"></center>
+                  <h1 class="text-center mt-3 fontwhite">Perfil</h1>
+                
+              </div>
+            
+            <div class="col-lg-2"></div>
+            <div class="col-lg-6 col-md-6 background-Black mt-5">
+                <h1 class="text-center mt-5 fontwhite">Perfil de <div class="Perfil custom-control-inline">"nombre del propietarios"</div></h1>
+            <p class="text-justify mt-2 overflow-auto">
+                <div class="fontwhite">   
+                   
+                        
+                            
+                              <div class="col">
+                                Nombre: <div class="nombrePerfil custom-control-inline">"nombre"</div>
+                              </div>
+                              <div class="col">
+                                Apellidos: <div class="apellidosPerfil custom-control-inline">"Apellidos"</div>
+                              </div>
+                            
+                          
+                            
+                            
+                              
+                                Correo: <div class="correoPerfil custom-control-inline">"Correo"</div>
+                            
+                
 
-                    
-                    <img src="https://wideo.co/wp-content/uploads/2016/04/10estadisticas-sin-textov2-1080x675.jpg">
-
-            </div>
+                              
+                                Telefono: <div class="telefonoPerfil custom-control-inline">"Telefono"</div>
+                            
+                            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<button type="button" class="btn btn-outline-success">Actualizar</button>
+                            <button type="button" class="btn btn-outline-danger" onclick="location.href='HomePaciente.html'">Regresar</button>
+                        </div>
+            </p>
         </div>
-        
-        
-        
-
+            
+        </div>
     </div>
       
 </div>

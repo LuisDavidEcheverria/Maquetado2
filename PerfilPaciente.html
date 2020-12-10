@@ -26,34 +26,50 @@
    
     <div class="container ml-8 " id="texto">
         <div class="row">
-            <div class="col-lg-3 col-md-3"></div>
+            <div class="col-lg-4 col-md-4 mt-5 background-Black2 mb-3">
+               
+                  <center><img src="img/perfilVacio.png" class="imgGrande mt-4 align-self-middle"></center>
+                  <h1 class="text-center mt-3 fontwhite">Perfil</h1>
+                
+              </div>
             
+            <div class="col-lg-2"></div>
             <div class="col-lg-6 col-md-6 background-Black mt-5">
-                <h1 class="text-center mt-5 fontwhite">¡Registrate!</h1>
+                <h1 class="text-center mt-5 fontwhite">Editar Datos</h1>
             <p class="text-justify mt-2 overflow-auto">
                 <form action="get">   
-                <center>
-                  
-                  
-
-                    <select class="form-control form-control-lg">
-                      <option>Paciente</option>
-                      <option>Psicologo</option>
-
-                    </select>
-
-                    <p><input type="text" class="form-control mt-3" required minlength="2" maxlength="36" name="usuario" id="usuario" placeholder="Nombre de usuario"></p>
-                    <p><input type="text" class="form-control"required minlength="2" maxlength="50"name="Correo" id="Correo" placeholder="Correo electronico"></p>
-                    <p><input type="password" class="form-control" required name="password" id="password" placeholder="Tu contraseña"></p>
-                    <p><input type="password" class="form-control" required name="confirmar" id="confirmar" placeholder="Confirma contraseña"></p>
-                    <p><div class="text-center font-italic"><input type="button" class="btn btn-primary" onclick="location.href='HomePaciente.html'" value="Registar">  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  <a href="IniciarSesion.html">¿Ya tienes cuenta?</div></a></p>
-                </center>
-                
-
-                </form>
+                    <form>
+                        <form>
+                            <div class="form-row">
+                              <div class="col">
+                                <input type="text" class="form-control" placeholder="First name">
+                              </div>
+                              <div class="col">
+                                <input type="text" class="form-control" placeholder="Last name">
+                              </div>
+                            </div>
+                          </form>
+                          <form>
+                            <div class="form-group">
+                              
+                              <input type="password" class="form-control mt-3" id="formGroupExampleInput" placeholder="Contraseña: ">
+                            </div>
+                            <div class="form-group">
+                              
+                              <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Teléfono: ">
+                            </div>
+                          </form><form>
+                            <div class="form-group">
+                              
+                              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Correo: ">
+                            </div>
+                            &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<button type="button" class="btn btn-outline-success">Actualizar</button> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                            <button type="button" class="btn btn-outline-warning">Deshacer</button> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                            <button type="button" class="btn btn-outline-danger" onclick="location.href='HomePaciente.html'">Regresar</button>
+                          </form>
             </p>
         </div>
-            <div class="col-ls-3 col-md-3"></div>
+            
         </div>
     </div>
       

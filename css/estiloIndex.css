@@ -17,10 +17,12 @@ body,html{
 
 }
 body{
-            background-image: url("https://cdn.discordapp.com/attachments/771514575651733575/786033365571600394/2.jpg");
-
+            background-image: url("https://cdn.discordapp.com/attachments/771514575651733575/786097261683540018/2.jpg");
             height: 100%;
             width: 100%;
+            min-height: 100vh;
+            flex-wrap: wrap;
+
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -33,9 +35,12 @@ body{
 }
 #pie
 {
-    width:100%;
-    position: relative;
-    bottom: -20%;
+    position:fixed;
+   left:0px;
+   bottom:0px;
+   height:70px;
+   width:100%;
+   background:#999;
     
 }
 #texto

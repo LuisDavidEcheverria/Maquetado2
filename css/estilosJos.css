@@ -7,6 +7,11 @@
     width: 400px;
 
 }
+.background-Black2{
+    background: rgb(60, 60, 60,0.9);
+    border-radius: 7%;
+    height: 300px;
+}
 .background-BlackBlock{
     background: rgb(60, 60, 60,0.8);
     border:8px solid rgb(255, 255, 255);
